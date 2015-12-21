@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cc892da7-b7ef-4b14-b80e-8da9970d34d2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://knockknock.readify.net/RedPill.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RedPill.xsd" MetadataType="Schema" ID="055d428d-7a93-4526-a018-51c666d53805" SourceId="1" SourceUrl="https://knockknock.readify.net/RedPill.svc?xsd=xsd0" />
+    <MetadataFile FileName="RedPill.disco" MetadataType="Disco" ID="7f1b35b5-00aa-4665-b7c2-90f36220ccd7" SourceId="1" SourceUrl="https://knockknock.readify.net/RedPill.svc?disco" />
+    <MetadataFile FileName="RedPill1.xsd" MetadataType="Schema" ID="723e2e94-d871-41ac-aaa9-6b8a85262c22" SourceId="1" SourceUrl="https://knockknock.readify.net/RedPill.svc?xsd=xsd2" />
+    <MetadataFile FileName="RedPill2.xsd" MetadataType="Schema" ID="46a1a981-c856-4299-95d7-c1baec4e3366" SourceId="1" SourceUrl="https://knockknock.readify.net/RedPill.svc?xsd=xsd1" />
+    <MetadataFile FileName="RedPill.wsdl" MetadataType="Wsdl" ID="7e195d22-0bff-4580-b6c3-ef5446031f97" SourceId="1" SourceUrl="https://knockknock.readify.net/RedPill.svc?wsdl" />
+    <MetadataFile FileName="RedPill1.wsdl" MetadataType="Wsdl" ID="a73719be-b2dd-4ada-aedf-515e9df31fb9" SourceId="1" SourceUrl="https://knockknock.readify.net/RedPill.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
